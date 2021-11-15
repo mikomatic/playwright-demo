@@ -21,7 +21,7 @@ public class VideoTest {
     void shouldInterceptNetworkCall() {
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch();
-        BrowserContext context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("videos/")));
+        BrowserContext context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("target/videos/")));
         Page page = context.newPage();
         // Go to https://example.com/
         page.navigate("https://example.com/");
