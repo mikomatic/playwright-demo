@@ -1,0 +1,76 @@
+{
+  "uid" : "ac6e6bad2956770",
+  "name" : "Test Video",
+  "fullName" : "org.example.VideoTest.shouldInterceptNetworkCall",
+  "historyId" : "5d632d0db8c0962542572c0b0ca1a4d5",
+  "time" : {
+    "start" : 1636990056748,
+    "stop" : 1636990058307,
+    "duration" : 1559
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ccb132d609923dc1",
+      "name" : "My attachment 2",
+      "source" : "ccb132d609923dc1.webm",
+      "type" : "video/webm",
+      "size" : 29172
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.VideoTest]/[method:shouldInterceptNetworkCall()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-625"
+  }, {
+    "name" : "thread",
+    "value" : "1907@fv-az39-625.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldInterceptNetworkCall"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac6e6bad2956770.json",
+  "parameterValues" : [ ]
+}

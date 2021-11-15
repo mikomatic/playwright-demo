@@ -6,13 +6,13 @@
       "name" : "I can check a box",
       "children" : [ {
         "name" : "shouldCheckTheBox()",
-        "uid" : "d495f5ecef573e3f",
+        "uid" : "4b7aa51ae86b6c35",
         "parentUid" : "23f26331eb60aa0c185fc7554ea551a8",
         "status" : "passed",
         "time" : {
-          "start" : 1636989893925,
-          "stop" : 1636989894122,
-          "duration" : 197
+          "start" : 1636990050882,
+          "stop" : 1636990051174,
+          "duration" : 292
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,13 +22,13 @@
       "name" : "I can click a button",
       "children" : [ {
         "name" : "shouldClickButton()",
-        "uid" : "e302d2de20abb572",
+        "uid" : "5c26d68026f6f476",
         "parentUid" : "b024a8d78d860a6cb19abd01735bb5f0",
         "status" : "passed",
         "time" : {
-          "start" : 1636989894231,
-          "stop" : 1636989894365,
-          "duration" : 134
+          "start" : 1636990051316,
+          "stop" : 1636990051501,
+          "duration" : 185
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -38,13 +38,13 @@
       "name" : "I can use a webpage",
       "children" : [ {
         "name" : "shouldSearchWiki()",
-        "uid" : "306506d37d7a9ac5",
+        "uid" : "d79bdea7f8882ebd",
         "parentUid" : "5053918642d51d551fdd0a8180443e2c",
         "status" : "passed",
         "time" : {
-          "start" : 1636989894370,
-          "stop" : 1636989896265,
-          "duration" : 1895
+          "start" : 1636990051508,
+          "stop" : 1636990053796,
+          "duration" : 2288
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -54,37 +54,37 @@
     "uid" : "ab9cb3c9654eb56bddbb091cd4af1426"
   }, {
     "name" : "Test Tracing",
-    "uid" : "55eacd7fada59fd1",
+    "uid" : "fe7965e7ad22cec4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636989896330,
-      "stop" : 1636989898615,
-      "duration" : 2285
+      "start" : 1636990053889,
+      "stop" : 1636990056732,
+      "duration" : 2843
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Test Video",
-    "uid" : "946fc0898c4a0abb",
+    "uid" : "ac6e6bad2956770",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636989898620,
-      "stop" : 1636989900047,
-      "duration" : 1427
+      "start" : 1636990056748,
+      "stop" : 1636990058307,
+      "duration" : 1559
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Test Network Interception",
-    "uid" : "7db4d02e29fb06b8",
+    "uid" : "4a65b3364b73f0db",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1636989900455,
-      "stop" : 1636989900638,
-      "duration" : 183
+      "start" : 1636990058836,
+      "stop" : 1636990059084,
+      "duration" : 248
     },
     "flaky" : false,
     "parameters" : [ ]

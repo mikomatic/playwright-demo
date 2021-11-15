@@ -1,12 +1,12 @@
 {
-  "uid" : "7db4d02e29fb06b8",
+  "uid" : "4a65b3364b73f0db",
   "name" : "Test Network Interception",
   "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
   "historyId" : "d02a981d9beca065450e38bfb8714009",
   "time" : {
-    "start" : 1636989900455,
-    "stop" : 1636989900638,
-    "duration" : 183
+    "start" : 1636990058836,
+    "stop" : 1636990059084,
+    "duration" : 248
   },
   "description" : "",
   "status" : "passed",
@@ -17,9 +17,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "606cc69a47464d5d",
+      "uid" : "b2d6565b5fb1ad31",
       "name" : "My attachment 2",
-      "source" : "606cc69a47464d5d.png",
+      "source" : "b2d6565b5fb1ad31.png",
       "type" : "image/png",
       "size" : 6721
     } ],
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7db4d02e29fb06b8.json",
+  "source" : "4a65b3364b73f0db.json",
   "parameterValues" : [ ]
 }

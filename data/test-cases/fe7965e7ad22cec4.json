@@ -1,12 +1,12 @@
 {
-  "uid" : "55eacd7fada59fd1",
+  "uid" : "fe7965e7ad22cec4",
   "name" : "Test Tracing",
   "fullName" : "org.example.TracingTest.shouldInterceptNetworkCall",
   "historyId" : "1186eafe3de1df88b51455edc6b7aba0",
   "time" : {
-    "start" : 1636989896330,
-    "stop" : 1636989898615,
-    "duration" : 2285
+    "start" : 1636990053889,
+    "stop" : 1636990056732,
+    "duration" : 2843
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a7377bbb151f9c5c",
+      "uid" : "6535e409e1e5d83e",
       "name" : "My Trace",
-      "source" : "a7377bbb151f9c5c.zip",
+      "source" : "6535e409e1e5d83e.zip",
       "type" : "application/zip",
-      "size" : 253723
+      "size" : 114530
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "55eacd7fada59fd1.json",
+  "source" : "fe7965e7ad22cec4.json",
   "parameterValues" : [ ]
 }
