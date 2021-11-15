@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fv-az126-306",
+    "children" : [ {
+      "name" : "2281@fv-az126-306.main(1)",
+      "children" : [ {
+        "name" : "shouldClickButton()",
+        "uid" : "998e5b53b6e98192",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988352851,
+          "stop" : 1636988352993,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Video",
+        "uid" : "a1705769f8599930",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988356058,
+          "stop" : 1636988356968,
+          "duration" : 910
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckTheBox()",
+        "uid" : "5911bb6c1c51ebd0",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988352504,
+          "stop" : 1636988352725,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSearchWiki()",
+        "uid" : "73db484afd930035",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988353002,
+          "stop" : 1636988354806,
+          "duration" : 1804
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Network Interception",
+        "uid" : "c0d43609b4c7af18",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988357368,
+          "stop" : 1636988357547,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Tracing",
+        "uid" : "b8d4e325768c7aaa",
+        "parentUid" : "66e78ba26640dbe3b10c94a217f9948f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1636988354865,
+          "stop" : 1636988356049,
+          "duration" : 1184
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66e78ba26640dbe3b10c94a217f9948f"
+    } ],
+    "uid" : "611b6cc18240cfdbe4aec5eecb87bde0"
+  } ]
+}

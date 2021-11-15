@@ -1,0 +1,76 @@
+{
+  "uid" : "b8d4e325768c7aaa",
+  "name" : "Test Tracing",
+  "fullName" : "org.example.TracingTest.shouldInterceptNetworkCall",
+  "historyId" : "1186eafe3de1df88b51455edc6b7aba0",
+  "time" : {
+    "start" : 1636988354865,
+    "stop" : 1636988356049,
+    "duration" : 1184
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6858388d81bb42f",
+      "name" : "My Trace",
+      "source" : "e6858388d81bb42f.zip",
+      "type" : "application/zip",
+      "size" : 486879
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.TracingTest]/[method:shouldInterceptNetworkCall()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az126-306"
+  }, {
+    "name" : "thread",
+    "value" : "2281@fv-az126-306.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldInterceptNetworkCall"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8d4e325768c7aaa.json",
+  "parameterValues" : [ ]
+}
