@@ -1,60 +1,60 @@
 [ {
-  "uid" : "2c5ce3050296565",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1636990765982,
-    "stop" : 1636990766225,
-    "duration" : 243
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dcd646b645fa7c68",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1636990759356,
-    "stop" : 1636990759522,
-    "duration" : 166
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "381c5c63a38d6b6d",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1636990764036,
-    "stop" : 1636990765501,
-    "duration" : 1465
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8b6d529201fa76d7",
-  "name" : "Test Tracing",
-  "time" : {
-    "start" : 1636990761593,
-    "stop" : 1636990764019,
-    "duration" : 2426
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "baa4c6a915af72f2",
+  "uid" : "b62e10f13bb39611",
   "name" : "shouldSearchWiki()",
   "time" : {
-    "start" : 1636990759527,
-    "stop" : 1636990761523,
-    "duration" : 1996
+    "start" : 1636992895178,
+    "stop" : 1636992896686,
+    "duration" : 1508
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e21f7c8779f8498",
+  "uid" : "c98d1874e2d25ea7",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1636990758969,
-    "stop" : 1636990759232,
-    "duration" : 263
+    "start" : 1636992894730,
+    "stop" : 1636992894900,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19bdd7778d1b4718",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1636992898102,
+    "stop" : 1636992899227,
+    "duration" : 1125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3034033c5330cae6",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1636992895035,
+    "stop" : 1636992895169,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa6e8020b47a9784",
+  "name" : "Test Tracing",
+  "time" : {
+    "start" : 1636992896728,
+    "stop" : 1636992898082,
+    "duration" : 1354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a5ff0ff0f61e3c5",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1636992899628,
+    "stop" : 1636992899840,
+    "duration" : 212
   },
   "status" : "passed",
   "severity" : "normal"

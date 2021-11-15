@@ -1,12 +1,12 @@
 {
-  "uid" : "381c5c63a38d6b6d",
-  "name" : "Test Video",
-  "fullName" : "org.example.VideoTest.shouldInterceptNetworkCall",
-  "historyId" : "5d632d0db8c0962542572c0b0ca1a4d5",
+  "uid" : "1a5ff0ff0f61e3c5",
+  "name" : "Test Network Interception",
+  "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
+  "historyId" : "d02a981d9beca065450e38bfb8714009",
   "time" : {
-    "start" : 1636990764036,
-    "stop" : 1636990765501,
-    "duration" : 1465
+    "start" : 1636992899628,
+    "stop" : 1636992899840,
+    "duration" : 212
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "29bc36da98e53c1b",
+      "uid" : "6c163f969ed6bf4b",
       "name" : "My attachment 2",
-      "source" : "29bc36da98e53c1b.webm",
-      "type" : "video/webm",
-      "size" : 29172
+      "source" : "6c163f969ed6bf4b.png",
+      "type" : "image/png",
+      "size" : 6721
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -32,13 +32,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:org.example.VideoTest]/[method:shouldInterceptNetworkCall()]"
+    "value" : "[engine:junit-jupiter]/[class:org.example.NetworkTest]/[method:shouldInterceptNetworkCall()]"
   }, {
     "name" : "host",
-    "value" : "fv-az39-625"
+    "value" : "fv-az77-248"
   }, {
     "name" : "thread",
-    "value" : "1917@fv-az39-625.main(1)"
+    "value" : "1898@fv-az77-248.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -47,16 +47,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "testClass",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "testMethod",
     "value" : "shouldInterceptNetworkCall"
   }, {
     "name" : "suite",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "381c5c63a38d6b6d.json",
+  "source" : "1a5ff0ff0f61e3c5.json",
   "parameterValues" : [ ]
 }
