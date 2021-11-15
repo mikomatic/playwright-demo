@@ -1,12 +1,12 @@
 {
-  "uid" : "4b7aa51ae86b6c35",
-  "name" : "shouldCheckTheBox()",
-  "fullName" : "org.example.ExampleWithScreenShotTest.shouldCheckTheBox",
-  "historyId" : "96241cc5538eaa393429f983caabd8d4",
+  "uid" : "dcd646b645fa7c68",
+  "name" : "shouldClickButton()",
+  "fullName" : "org.example.ExampleWithScreenShotTest.shouldClickButton",
+  "historyId" : "958b95091cabd8d68818b1a1f97dfea4",
   "time" : {
-    "start" : 1636990050882,
-    "stop" : 1636990051174,
-    "duration" : 292
+    "start" : 1636990759356,
+    "stop" : 1636990759522,
+    "duration" : 166
   },
   "description" : "",
   "status" : "passed",
@@ -15,19 +15,19 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:org.example.ExampleWithScreenShotTest]/[method:shouldCheckTheBox()]"
+    "value" : "[engine:junit-jupiter]/[class:org.example.ExampleWithScreenShotTest]/[method:shouldClickButton()]"
   }, {
     "name" : "epic",
     "value" : "First Test"
   }, {
     "name" : "story",
-    "value" : "I can check a box"
+    "value" : "I can click a button"
   }, {
     "name" : "host",
     "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "1907@fv-az39-625.main(1)"
+    "value" : "1917@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -42,7 +42,7 @@
     "value" : "org.example.ExampleWithScreenShotTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldCheckTheBox"
+    "value" : "shouldClickButton"
   }, {
     "name" : "suite",
     "value" : "org.example.ExampleWithScreenShotTest"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b7aa51ae86b6c35.json",
+  "source" : "dcd646b645fa7c68.json",
   "parameterValues" : [ ]
 }
