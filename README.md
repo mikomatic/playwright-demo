@@ -42,6 +42,8 @@ It should be available by running the command:
 mvn exec:java -e "-Dexec.mainClass=com.microsoft.playwright.CLI" "-Dexec.args=show-trace target/trace.zip"`
 ```
 
+Or by uploading the file `target/trace.zip` to https://trace.playwright.dev (only Chrome/Chromium compatible it seems)
+
 ## Demo
 
 The generated report is also available as a github page https://mikomatic.github.io/playwright-demo/
