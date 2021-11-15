@@ -1,12 +1,12 @@
 {
-  "uid" : "c0d43609b4c7af18",
-  "name" : "Test Network Interception",
-  "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
-  "historyId" : "d02a981d9beca065450e38bfb8714009",
+  "uid" : "e5a6609d893c7f26",
+  "name" : "Test Tracing",
+  "fullName" : "org.example.TracingTest.shouldInterceptNetworkCall",
+  "historyId" : "1186eafe3de1df88b51455edc6b7aba0",
   "time" : {
-    "start" : 1636988357368,
-    "stop" : 1636988357547,
-    "duration" : 179
+    "start" : 1636989388143,
+    "stop" : 1636989390258,
+    "duration" : 2115
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "9b2f8142138ec338",
-      "name" : "My attachment 2",
-      "source" : "9b2f8142138ec338.png",
-      "type" : "image/png",
-      "size" : 6721
+      "uid" : "a5fbd82e99c7771d",
+      "name" : "My Trace",
+      "source" : "a5fbd82e99c7771d.zip",
+      "type" : "application/zip",
+      "size" : 70674
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -32,13 +32,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:org.example.NetworkTest]/[method:shouldInterceptNetworkCall()]"
+    "value" : "[engine:junit-jupiter]/[class:org.example.TracingTest]/[method:shouldInterceptNetworkCall()]"
   }, {
     "name" : "host",
-    "value" : "fv-az126-306"
+    "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "2281@fv-az126-306.main(1)"
+    "value" : "1954@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -47,16 +47,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "org.example.NetworkTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "testClass",
-    "value" : "org.example.NetworkTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "testMethod",
     "value" : "shouldInterceptNetworkCall"
   }, {
     "name" : "suite",
-    "value" : "org.example.NetworkTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c0d43609b4c7af18.json",
+  "source" : "e5a6609d893c7f26.json",
   "parameterValues" : [ ]
 }

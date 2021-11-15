@@ -1,12 +1,12 @@
 {
-  "uid" : "a1705769f8599930",
+  "uid" : "66ac2a588188dffe",
   "name" : "Test Video",
   "fullName" : "org.example.VideoTest.shouldInterceptNetworkCall",
   "historyId" : "5d632d0db8c0962542572c0b0ca1a4d5",
   "time" : {
-    "start" : 1636988356058,
-    "stop" : 1636988356968,
-    "duration" : 910
+    "start" : 1636989390269,
+    "stop" : 1636989391817,
+    "duration" : 1548
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "215366c9ae7b43f4",
+      "uid" : "8476470331d5638d",
       "name" : "My attachment 2",
-      "source" : "215366c9ae7b43f4.webm",
+      "source" : "8476470331d5638d.webm",
       "type" : "video/webm",
-      "size" : 29528
+      "size" : 58324
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -35,10 +35,10 @@
     "value" : "[engine:junit-jupiter]/[class:org.example.VideoTest]/[method:shouldInterceptNetworkCall()]"
   }, {
     "name" : "host",
-    "value" : "fv-az126-306"
+    "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "2281@fv-az126-306.main(1)"
+    "value" : "1954@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a1705769f8599930.json",
+  "source" : "66ac2a588188dffe.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "73db484afd930035",
-  "name" : "shouldSearchWiki()",
-  "fullName" : "org.example.ExampleWithScreenShotTest.shouldSearchWiki",
-  "historyId" : "1f6e2957f46ca5e73fa6f57be5c1da2a",
+  "uid" : "e322a4d08666ae99",
+  "name" : "Test Network Interception",
+  "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
+  "historyId" : "d02a981d9beca065450e38bfb8714009",
   "time" : {
-    "start" : 1636988353002,
-    "stop" : 1636988354806,
-    "duration" : 1804
+    "start" : 1636989392324,
+    "stop" : 1636989392565,
+    "duration" : 241
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2cc5cc552d238377",
-      "name" : "My attachment 1",
-      "source" : "2cc5cc552d238377.png",
+      "uid" : "3d16893cae49cfa0",
+      "name" : "My attachment 2",
+      "source" : "3d16893cae49cfa0.png",
       "type" : "image/png",
-      "size" : 308608
+      "size" : 6721
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -31,23 +31,14 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "navigation"
-  }, {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:org.example.ExampleWithScreenShotTest]/[method:shouldSearchWiki()]"
-  }, {
-    "name" : "epic",
-    "value" : "First Test"
-  }, {
-    "name" : "story",
-    "value" : "I can use a webpage"
+    "value" : "[engine:junit-jupiter]/[class:org.example.NetworkTest]/[method:shouldInterceptNetworkCall()]"
   }, {
     "name" : "host",
-    "value" : "fv-az126-306"
+    "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "2281@fv-az126-306.main(1)"
+    "value" : "1954@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -56,16 +47,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "org.example.ExampleWithScreenShotTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "testClass",
-    "value" : "org.example.ExampleWithScreenShotTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldSearchWiki"
+    "value" : "shouldInterceptNetworkCall"
   }, {
     "name" : "suite",
-    "value" : "org.example.ExampleWithScreenShotTest"
+    "value" : "org.example.NetworkTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -78,8 +69,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "navigation" ]
+    "tags" : [ ]
   },
-  "source" : "73db484afd930035.json",
+  "source" : "e322a4d08666ae99.json",
   "parameterValues" : [ ]
 }
