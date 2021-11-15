@@ -1,12 +1,12 @@
 {
-  "uid" : "e5a6609d893c7f26",
+  "uid" : "55eacd7fada59fd1",
   "name" : "Test Tracing",
   "fullName" : "org.example.TracingTest.shouldInterceptNetworkCall",
   "historyId" : "1186eafe3de1df88b51455edc6b7aba0",
   "time" : {
-    "start" : 1636989388143,
-    "stop" : 1636989390258,
-    "duration" : 2115
+    "start" : 1636989896330,
+    "stop" : 1636989898615,
+    "duration" : 2285
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a5fbd82e99c7771d",
+      "uid" : "a7377bbb151f9c5c",
       "name" : "My Trace",
-      "source" : "a5fbd82e99c7771d.zip",
+      "source" : "a7377bbb151f9c5c.zip",
       "type" : "application/zip",
-      "size" : 70674
+      "size" : 253723
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -38,7 +38,7 @@
     "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "1954@fv-az39-625.main(1)"
+    "value" : "1907@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e5a6609d893c7f26.json",
+  "source" : "55eacd7fada59fd1.json",
   "parameterValues" : [ ]
 }

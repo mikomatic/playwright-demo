@@ -1,12 +1,12 @@
 {
-  "uid" : "e322a4d08666ae99",
+  "uid" : "7db4d02e29fb06b8",
   "name" : "Test Network Interception",
   "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
   "historyId" : "d02a981d9beca065450e38bfb8714009",
   "time" : {
-    "start" : 1636989392324,
-    "stop" : 1636989392565,
-    "duration" : 241
+    "start" : 1636989900455,
+    "stop" : 1636989900638,
+    "duration" : 183
   },
   "description" : "",
   "status" : "passed",
@@ -17,9 +17,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3d16893cae49cfa0",
+      "uid" : "606cc69a47464d5d",
       "name" : "My attachment 2",
-      "source" : "3d16893cae49cfa0.png",
+      "source" : "606cc69a47464d5d.png",
       "type" : "image/png",
       "size" : 6721
     } ],
@@ -38,7 +38,7 @@
     "value" : "fv-az39-625"
   }, {
     "name" : "thread",
-    "value" : "1954@fv-az39-625.main(1)"
+    "value" : "1907@fv-az39-625.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e322a4d08666ae99.json",
+  "source" : "7db4d02e29fb06b8.json",
   "parameterValues" : [ ]
 }

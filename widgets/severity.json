@@ -1,60 +1,60 @@
 [ {
-  "uid" : "7a61c81645748987",
-  "name" : "shouldCheckTheBox()",
-  "time" : {
-    "start" : 1636989385586,
-    "stop" : 1636989385821,
-    "duration" : 235
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66ac2a588188dffe",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1636989390269,
-    "stop" : 1636989391817,
-    "duration" : 1548
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e322a4d08666ae99",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1636989392324,
-    "stop" : 1636989392565,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e5a6609d893c7f26",
-  "name" : "Test Tracing",
-  "time" : {
-    "start" : 1636989388143,
-    "stop" : 1636989390258,
-    "duration" : 2115
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba35a99a39f5ea7a",
+  "uid" : "e302d2de20abb572",
   "name" : "shouldClickButton()",
   "time" : {
-    "start" : 1636989385932,
-    "stop" : 1636989386129,
+    "start" : 1636989894231,
+    "stop" : 1636989894365,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "946fc0898c4a0abb",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1636989898620,
+    "stop" : 1636989900047,
+    "duration" : 1427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db4d02e29fb06b8",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1636989900455,
+    "stop" : 1636989900638,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d495f5ecef573e3f",
+  "name" : "shouldCheckTheBox()",
+  "time" : {
+    "start" : 1636989893925,
+    "stop" : 1636989894122,
     "duration" : 197
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "71e9fa08c61087f4",
+  "uid" : "55eacd7fada59fd1",
+  "name" : "Test Tracing",
+  "time" : {
+    "start" : 1636989896330,
+    "stop" : 1636989898615,
+    "duration" : 2285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "306506d37d7a9ac5",
   "name" : "shouldSearchWiki()",
   "time" : {
-    "start" : 1636989386137,
-    "stop" : 1636989388071,
-    "duration" : 1934
+    "start" : 1636989894370,
+    "stop" : 1636989896265,
+    "duration" : 1895
   },
   "status" : "passed",
   "severity" : "normal"
