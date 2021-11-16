@@ -20,7 +20,7 @@ public class TracingTest {
 
     @Test
     @DisplayName("Test Tracing")
-    void shouldInterceptNetworkCall() {
+    void traceExample() throws IOException {
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.chromium().launch();
             BrowserContext context = browser.newContext();
@@ -42,8 +42,6 @@ public class TracingTest {
             context.tracing().stop(new Tracing.StopOptions().setPath(tracePath));
 
             Allure.addAttachment("My Trace", "application/zip", new ByteArrayInputStream(Files.readAllBytes(tracePath)), ".zip");
-        } catch (IOException e) {
-            e.printStackTrace();
         }
 
 

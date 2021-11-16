@@ -18,7 +18,7 @@ public class VideoTest {
 
     @Test
     @DisplayName("Test Video")
-    void shouldInterceptNetworkCall() {
+    void videoExample() throws IOException {
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch();
         BrowserContext context = browser.newContext(new Browser.NewContextOptions().setRecordVideoDir(Paths.get("target/videos/")));
@@ -31,10 +31,6 @@ public class VideoTest {
         page.click("img[alt=\"Homepage\"]");
         context.close();
 
-        try {
-            Allure.addAttachment("My attachment 2", "video/webm", new ByteArrayInputStream(Files.readAllBytes(page.video().path())), ".webm");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        Allure.addAttachment("My attachment 2", "video/webm", new ByteArrayInputStream(Files.readAllBytes(page.video().path())), ".webm");
     }
 }
