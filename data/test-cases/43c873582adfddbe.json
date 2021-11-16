@@ -1,12 +1,12 @@
 {
-  "uid" : "c98d1874e2d25ea7",
+  "uid" : "43c873582adfddbe",
   "name" : "shouldCheckTheBox()",
   "fullName" : "org.example.ExampleWithScreenShotTest.shouldCheckTheBox",
   "historyId" : "96241cc5538eaa393429f983caabd8d4",
   "time" : {
-    "start" : 1636992894730,
-    "stop" : 1636992894900,
-    "duration" : 170
+    "start" : 1637077645826,
+    "stop" : 1637077646051,
+    "duration" : 225
   },
   "description" : "",
   "status" : "passed",
@@ -24,10 +24,10 @@
     "value" : "I can check a box"
   }, {
     "name" : "host",
-    "value" : "fv-az77-248"
+    "value" : "fv-az121-894"
   }, {
     "name" : "thread",
-    "value" : "1898@fv-az77-248.main(1)"
+    "value" : "1656@fv-az121-894.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c98d1874e2d25ea7.json",
+  "source" : "43c873582adfddbe.json",
   "parameterValues" : [ ]
 }

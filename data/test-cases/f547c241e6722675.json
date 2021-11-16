@@ -1,12 +1,12 @@
 {
-  "uid" : "3034033c5330cae6",
+  "uid" : "f547c241e6722675",
   "name" : "shouldClickButton()",
   "fullName" : "org.example.ExampleWithScreenShotTest.shouldClickButton",
   "historyId" : "958b95091cabd8d68818b1a1f97dfea4",
   "time" : {
-    "start" : 1636992895035,
-    "stop" : 1636992895169,
-    "duration" : 134
+    "start" : 1637077646132,
+    "stop" : 1637077646257,
+    "duration" : 125
   },
   "description" : "",
   "status" : "passed",
@@ -24,10 +24,10 @@
     "value" : "I can click a button"
   }, {
     "name" : "host",
-    "value" : "fv-az77-248"
+    "value" : "fv-az121-894"
   }, {
     "name" : "thread",
-    "value" : "1898@fv-az77-248.main(1)"
+    "value" : "1656@fv-az121-894.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -60,6 +60,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3034033c5330cae6.json",
+  "source" : "f547c241e6722675.json",
   "parameterValues" : [ ]
 }

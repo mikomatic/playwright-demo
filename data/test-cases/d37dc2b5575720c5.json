@@ -1,12 +1,12 @@
 {
-  "uid" : "19bdd7778d1b4718",
-  "name" : "Test Video",
-  "fullName" : "org.example.VideoTest.shouldInterceptNetworkCall",
-  "historyId" : "5d632d0db8c0962542572c0b0ca1a4d5",
+  "uid" : "d37dc2b5575720c5",
+  "name" : "Test Tracing",
+  "fullName" : "org.example.TracingTest.traceExample",
+  "historyId" : "32f982bfd13357db9a49848814328fe1",
   "time" : {
-    "start" : 1636992898102,
-    "stop" : 1636992899227,
-    "duration" : 1125
+    "start" : 1637077648104,
+    "stop" : 1637077649350,
+    "duration" : 1246
   },
   "description" : "",
   "status" : "passed",
@@ -17,11 +17,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dafe116d156b70c8",
-      "name" : "My attachment 2",
-      "source" : "dafe116d156b70c8.webm",
-      "type" : "video/webm",
-      "size" : 23398
+      "uid" : "de909d834720ed6d",
+      "name" : "My Trace",
+      "source" : "de909d834720ed6d.zip",
+      "type" : "application/zip",
+      "size" : 543905
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -32,13 +32,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:org.example.VideoTest]/[method:shouldInterceptNetworkCall()]"
+    "value" : "[engine:junit-jupiter]/[class:org.example.TracingTest]/[method:traceExample()]"
   }, {
     "name" : "host",
-    "value" : "fv-az77-248"
+    "value" : "fv-az121-894"
   }, {
     "name" : "thread",
-    "value" : "1898@fv-az77-248.main(1)"
+    "value" : "1656@fv-az121-894.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -47,16 +47,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "testClass",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "testMethod",
-    "value" : "shouldInterceptNetworkCall"
+    "value" : "traceExample"
   }, {
     "name" : "suite",
-    "value" : "org.example.VideoTest"
+    "value" : "org.example.TracingTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "19bdd7778d1b4718.json",
+  "source" : "d37dc2b5575720c5.json",
   "parameterValues" : [ ]
 }
