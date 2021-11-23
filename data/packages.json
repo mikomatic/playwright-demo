@@ -3,93 +3,93 @@
   "children" : [ {
     "name" : "org.example",
     "children" : [ {
-      "name" : "ExampleWithScreenShotTest",
-      "children" : [ {
-        "name" : "shouldCheckTheBox",
-        "uid" : "43c873582adfddbe",
-        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637077645826,
-          "stop" : 1637077646051,
-          "duration" : 225
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldClickButton",
-        "uid" : "f547c241e6722675",
-        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637077646132,
-          "stop" : 1637077646257,
-          "duration" : 125
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldSearchWiki",
-        "uid" : "81fa2267fde243ba",
-        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1637077646262,
-          "stop" : 1637077648040,
-          "duration" : 1778
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8cef9219f79072c2080f395bdbe6e81e"
-    }, {
       "name" : "TracingTest",
       "children" : [ {
         "name" : "traceExample",
-        "uid" : "d37dc2b5575720c5",
+        "uid" : "4f81a3d25679530b",
         "parentUid" : "577776866cea1c202b77d3cf426491db",
         "status" : "passed",
         "time" : {
-          "start" : 1637077648104,
-          "stop" : 1637077649350,
-          "duration" : 1246
+          "start" : 1637697079735,
+          "stop" : 1637697116127,
+          "duration" : 36392
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "577776866cea1c202b77d3cf426491db"
     }, {
-      "name" : "VideoTest",
+      "name" : "ExampleWithScreenShotTest",
       "children" : [ {
-        "name" : "videoExample",
-        "uid" : "4c60265a54721872",
-        "parentUid" : "12bd3ea7acc2bd28a8ca285ef8c22b78",
+        "name" : "shouldCheckTheBox",
+        "uid" : "6b69d983a34e079e",
+        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
         "status" : "passed",
         "time" : {
-          "start" : 1637077649361,
-          "stop" : 1637077650310,
-          "duration" : 949
+          "start" : 1637697116927,
+          "stop" : 1637697117153,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldClickButton",
+        "uid" : "395afcffcd3f65eb",
+        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637697117161,
+          "stop" : 1637697117327,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSearchWiki",
+        "uid" : "ccf015f220bfb5f8",
+        "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637697117332,
+          "stop" : 1637697119169,
+          "duration" : 1837
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "12bd3ea7acc2bd28a8ca285ef8c22b78"
+      "uid" : "8cef9219f79072c2080f395bdbe6e81e"
     }, {
       "name" : "NetworkTest",
       "children" : [ {
         "name" : "shouldInterceptNetworkCall",
-        "uid" : "cc71b079b38b33fc",
+        "uid" : "a9c66b07adba8bf0",
         "parentUid" : "86473d04501445d3c03467902c524006",
         "status" : "passed",
         "time" : {
-          "start" : 1637077650720,
-          "stop" : 1637077650913,
-          "duration" : 193
+          "start" : 1637697119679,
+          "stop" : 1637697119863,
+          "duration" : 184
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "86473d04501445d3c03467902c524006"
+    }, {
+      "name" : "VideoTest",
+      "children" : [ {
+        "name" : "videoExample",
+        "uid" : "9045d5aef77f2b",
+        "parentUid" : "12bd3ea7acc2bd28a8ca285ef8c22b78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637697119900,
+          "stop" : 1637697121426,
+          "duration" : 1526
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12bd3ea7acc2bd28a8ca285ef8c22b78"
     } ],
     "uid" : "org.example"
   } ],

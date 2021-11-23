@@ -23,8 +23,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "cb1f1299ce4b21202eaf628615c156fd",
-    "name" : "org.example.VideoTest",
+    "uid" : "738e297df66cb7fab641a2b809a8403d",
+    "name" : "org.example.NetworkTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "738e297df66cb7fab641a2b809a8403d",
-    "name" : "org.example.NetworkTest",
+    "uid" : "cb1f1299ce4b21202eaf628615c156fd",
+    "name" : "org.example.VideoTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

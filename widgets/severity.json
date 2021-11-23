@@ -1,60 +1,60 @@
 [ {
-  "uid" : "81fa2267fde243ba",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1637077646262,
-    "stop" : 1637077648040,
-    "duration" : 1778
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc71b079b38b33fc",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1637077650720,
-    "stop" : 1637077650913,
-    "duration" : 193
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f547c241e6722675",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1637077646132,
-    "stop" : 1637077646257,
-    "duration" : 125
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c60265a54721872",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1637077649361,
-    "stop" : 1637077650310,
-    "duration" : 949
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d37dc2b5575720c5",
+  "uid" : "4f81a3d25679530b",
   "name" : "Test Tracing",
   "time" : {
-    "start" : 1637077648104,
-    "stop" : 1637077649350,
-    "duration" : 1246
+    "start" : 1637697079735,
+    "stop" : 1637697116127,
+    "duration" : 36392
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "43c873582adfddbe",
+  "uid" : "ccf015f220bfb5f8",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1637697117332,
+    "stop" : 1637697119169,
+    "duration" : 1837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9045d5aef77f2b",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1637697119900,
+    "stop" : 1637697121426,
+    "duration" : 1526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9c66b07adba8bf0",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1637697119679,
+    "stop" : 1637697119863,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "395afcffcd3f65eb",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1637697117161,
+    "stop" : 1637697117327,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b69d983a34e079e",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1637077645826,
-    "stop" : 1637077646051,
-    "duration" : 225
+    "start" : 1637697116927,
+    "stop" : 1637697117153,
+    "duration" : 226
   },
   "status" : "passed",
   "severity" : "normal"
