@@ -30,12 +30,27 @@ public class TracingTest {
 
             // Open new page
             Page page = context.newPage();
-            // Go to https://example.com/
-            page.navigate("https://example.com/");
-            // Click text=More information...
-            page.click("text=More information...");
-            // Click text=About
-            page.click("text=About");
+
+            // Go to https://github.com/
+            page.navigate("https://github.com/");
+
+            // Click [placeholder="Search GitHub"]
+            page.click("[placeholder=\"Search GitHub\"]");
+
+            // Fill [placeholder="Search GitHub"]
+            page.fill("[placeholder=\"Search GitHub\"]", "playwright");
+
+            // Press Enter
+            page.press("[placeholder=\"Search GitHub\"]", "Enter");
+
+            // Click text=microsoft/playwright-java >> em
+            page.click("text=microsoft/playwright-java >> em");
+
+            // Click text=About Java version of the Playwright testing and automation library playwright.d >> a[role="link"]
+            Page page1 = page.waitForPopup(() -> page.click("text=About Java version of the Playwright testing and automation library playwright.d >> a[role=\"link\"]"));
+
+            // Click text=Get started
+            page1.click("text=Get started");
 
             // Stop tracing and export it into a zip archive.
             final Path tracePath = Paths.get("target/trace.zip");
