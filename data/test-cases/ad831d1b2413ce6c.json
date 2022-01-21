@@ -1,0 +1,76 @@
+{
+  "uid" : "ad831d1b2413ce6c",
+  "name" : "Test Network Interception",
+  "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
+  "historyId" : "d02a981d9beca065450e38bfb8714009",
+  "time" : {
+    "start" : 1642796135543,
+    "stop" : 1642796135721,
+    "duration" : 178
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2df39c67f55cab4c",
+      "name" : "My attachment 2",
+      "source" : "2df39c67f55cab4c.png",
+      "type" : "image/png",
+      "size" : 6721
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.NetworkTest]/[method:shouldInterceptNetworkCall()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-968"
+  }, {
+    "name" : "thread",
+    "value" : "1738@fv-az39-968.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldInterceptNetworkCall"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad831d1b2413ce6c.json",
+  "parameterValues" : [ ]
+}

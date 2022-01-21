@@ -6,13 +6,13 @@
       "name" : "VideoTest",
       "children" : [ {
         "name" : "videoExample",
-        "uid" : "5a457c6ae0a9e0c9",
+        "uid" : "2b47531240f66b1a",
         "parentUid" : "12bd3ea7acc2bd28a8ca285ef8c22b78",
         "status" : "passed",
         "time" : {
-          "start" : 1642794263179,
-          "stop" : 1642794277448,
-          "duration" : 14269
+          "start" : 1642796101143,
+          "stop" : 1642796115919,
+          "duration" : 14776
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,37 +22,37 @@
       "name" : "ExampleWithScreenShotTest",
       "children" : [ {
         "name" : "shouldCheckTheBox",
-        "uid" : "bf5b9b31d9491ed8",
+        "uid" : "cf6a605078508a35",
         "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
         "status" : "passed",
         "time" : {
-          "start" : 1642794278000,
-          "stop" : 1642794278124,
-          "duration" : 124
+          "start" : 1642796116532,
+          "stop" : 1642796116703,
+          "duration" : 171
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldClickButton",
-        "uid" : "433346635faa8066",
+        "uid" : "2e87c4426635dc76",
         "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
         "status" : "passed",
         "time" : {
-          "start" : 1642794278128,
-          "stop" : 1642794278280,
-          "duration" : 152
+          "start" : 1642796116707,
+          "stop" : 1642796116838,
+          "duration" : 131
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "shouldSearchWiki",
-        "uid" : "ec1b3702762b807",
+        "uid" : "131450d4643331b5",
         "parentUid" : "8cef9219f79072c2080f395bdbe6e81e",
         "status" : "passed",
         "time" : {
-          "start" : 1642794278286,
-          "stop" : 1642794279596,
-          "duration" : 1310
+          "start" : 1642796116842,
+          "stop" : 1642796118298,
+          "duration" : 1456
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -62,13 +62,13 @@
       "name" : "TracingTest",
       "children" : [ {
         "name" : "traceExample",
-        "uid" : "fed0429358a3cdec",
+        "uid" : "44b10347fb0b154f",
         "parentUid" : "577776866cea1c202b77d3cf426491db",
         "status" : "passed",
         "time" : {
-          "start" : 1642794279622,
-          "stop" : 1642794291248,
-          "duration" : 11626
+          "start" : 1642796118331,
+          "stop" : 1642796135091,
+          "duration" : 16760
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -78,13 +78,13 @@
       "name" : "NetworkTest",
       "children" : [ {
         "name" : "shouldInterceptNetworkCall",
-        "uid" : "b97ce7195694e31b",
+        "uid" : "ad831d1b2413ce6c",
         "parentUid" : "86473d04501445d3c03467902c524006",
         "status" : "passed",
         "time" : {
-          "start" : 1642794291742,
-          "stop" : 1642794291980,
-          "duration" : 238
+          "start" : 1642796135543,
+          "stop" : 1642796135721,
+          "duration" : 178
         },
         "flaky" : false,
         "parameters" : [ ]
