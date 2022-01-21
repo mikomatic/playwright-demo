@@ -1,0 +1,85 @@
+{
+  "uid" : "6745af054371410",
+  "name" : "shouldSearchWiki()",
+  "fullName" : "org.example.ExampleWithScreenShotTest.shouldSearchWiki",
+  "historyId" : "1f6e2957f46ca5e73fa6f57be5c1da2a",
+  "time" : {
+    "start" : 1642756461178,
+    "stop" : 1642756462640,
+    "duration" : 1462
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c51a5b70fe4f5436",
+      "name" : "My attachment 1",
+      "source" : "c51a5b70fe4f5436.png",
+      "type" : "image/png",
+      "size" : 308611
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "navigation"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.ExampleWithScreenShotTest]/[method:shouldSearchWiki()]"
+  }, {
+    "name" : "epic",
+    "value" : "First Test"
+  }, {
+    "name" : "story",
+    "value" : "I can use a webpage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-73"
+  }, {
+    "name" : "thread",
+    "value" : "1729@fv-az83-73.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSearchWiki"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "navigation" ]
+  },
+  "source" : "6745af054371410.json",
+  "parameterValues" : [ ]
+}
