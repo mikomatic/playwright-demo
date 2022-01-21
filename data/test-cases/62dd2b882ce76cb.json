@@ -1,0 +1,76 @@
+{
+  "uid" : "62dd2b882ce76cb",
+  "name" : "Test Tracing",
+  "fullName" : "org.example.TracingTest.traceExample",
+  "historyId" : "32f982bfd13357db9a49848814328fe1",
+  "time" : {
+    "start" : 1642755132383,
+    "stop" : 1642755148499,
+    "duration" : 16116
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72a7529ef05308d1",
+      "name" : "My Trace",
+      "source" : "72a7529ef05308d1.zip",
+      "type" : "application/zip",
+      "size" : 6870067
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.TracingTest]/[method:traceExample()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-933"
+  }, {
+    "name" : "thread",
+    "value" : "1784@fv-az74-933.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "traceExample"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62dd2b882ce76cb.json",
+  "parameterValues" : [ ]
+}

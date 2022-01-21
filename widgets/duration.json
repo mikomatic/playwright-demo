@@ -1,60 +1,60 @@
 [ {
-  "uid" : "23f1a24a8313e243",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1642755081261,
-    "stop" : 1642755081526,
-    "duration" : 265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "41a2756619f07a29",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1642755059341,
-    "stop" : 1642755059478,
-    "duration" : 137
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f9479ef7ac42d57e",
+  "uid" : "21bdb9cb5cf33a46",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1642755059167,
-    "stop" : 1642755059335,
+    "start" : 1642755130405,
+    "stop" : 1642755130573,
     "duration" : 168
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "443757e15c713391",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1642755059482,
-    "stop" : 1642755061005,
-    "duration" : 1523
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea915db4a7633a0a",
+  "uid" : "a476e2c3aebec382",
   "name" : "Test Video",
   "time" : {
-    "start" : 1642755042777,
-    "stop" : 1642755058532,
-    "duration" : 15755
+    "start" : 1642755104615,
+    "stop" : 1642755129713,
+    "duration" : 25098
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7b5e3930d6a6b9ff",
+  "uid" : "32e1871209b803d0",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1642755130739,
+    "stop" : 1642755132348,
+    "duration" : 1609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62dd2b882ce76cb",
   "name" : "Test Tracing",
   "time" : {
-    "start" : 1642755061049,
-    "stop" : 1642755080644,
-    "duration" : 19595
+    "start" : 1642755132383,
+    "stop" : 1642755148499,
+    "duration" : 16116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ac18ee6ff2703df",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1642755130578,
+    "stop" : 1642755130734,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "264caa615916b3f3",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1642755149088,
+    "stop" : 1642755149345,
+    "duration" : 257
   },
   "status" : "passed",
   "severity" : "normal"
