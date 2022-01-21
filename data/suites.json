@@ -4,15 +4,20 @@
     "name" : "org.example.VideoTest",
     "children" : [ {
       "name" : "Test Video",
-      "uid" : "2b47531240f66b1a",
+      "uid" : "4f7343f1476f0181",
       "parentUid" : "cb1f1299ce4b21202eaf628615c156fd",
       "status" : "passed",
       "time" : {
-        "start" : 1642796101143,
-        "stop" : 1642796115919,
-        "duration" : 14776
+        "start" : 1642798608775,
+        "stop" : 1642798622596,
+        "duration" : 13821
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "cb1f1299ce4b21202eaf628615c156fd"
@@ -20,39 +25,54 @@
     "name" : "org.example.ExampleWithScreenShotTest",
     "children" : [ {
       "name" : "shouldCheckTheBox()",
-      "uid" : "cf6a605078508a35",
+      "uid" : "283573a14774f003",
       "parentUid" : "d6e58223f7e79aaf85e1d77e3df664da",
       "status" : "passed",
       "time" : {
-        "start" : 1642796116532,
-        "stop" : 1642796116703,
-        "duration" : 171
+        "start" : 1642798623126,
+        "stop" : 1642798623269,
+        "duration" : 143
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "shouldClickButton()",
-      "uid" : "2e87c4426635dc76",
+      "uid" : "ce4e2c8c3af49daf",
       "parentUid" : "d6e58223f7e79aaf85e1d77e3df664da",
       "status" : "passed",
       "time" : {
-        "start" : 1642796116707,
-        "stop" : 1642796116838,
-        "duration" : 131
+        "start" : 1642798623278,
+        "stop" : 1642798623423,
+        "duration" : 145
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "shouldSearchWiki()",
-      "uid" : "131450d4643331b5",
+      "uid" : "89697542829a1814",
       "parentUid" : "d6e58223f7e79aaf85e1d77e3df664da",
       "status" : "passed",
       "time" : {
-        "start" : 1642796116842,
-        "stop" : 1642796118298,
-        "duration" : 1456
+        "start" : 1642798623434,
+        "stop" : 1642798625237,
+        "duration" : 1803
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "d6e58223f7e79aaf85e1d77e3df664da"
@@ -60,15 +80,20 @@
     "name" : "org.example.TracingTest",
     "children" : [ {
       "name" : "Test Tracing",
-      "uid" : "44b10347fb0b154f",
+      "uid" : "f6fcd2b4bc7ec92d",
       "parentUid" : "241207217750e108950d01df707d6611",
       "status" : "passed",
       "time" : {
-        "start" : 1642796118331,
-        "stop" : 1642796135091,
-        "duration" : 16760
+        "start" : 1642798625277,
+        "stop" : 1642798637922,
+        "duration" : 12645
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "241207217750e108950d01df707d6611"
@@ -76,15 +101,20 @@
     "name" : "org.example.NetworkTest",
     "children" : [ {
       "name" : "Test Network Interception",
-      "uid" : "ad831d1b2413ce6c",
+      "uid" : "cf56b3b30dfd2d89",
       "parentUid" : "738e297df66cb7fab641a2b809a8403d",
       "status" : "passed",
       "time" : {
-        "start" : 1642796135543,
-        "stop" : 1642796135721,
-        "duration" : 178
+        "start" : 1642798638327,
+        "stop" : 1642798638486,
+        "duration" : 159
       },
       "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "738e297df66cb7fab641a2b809a8403d"
