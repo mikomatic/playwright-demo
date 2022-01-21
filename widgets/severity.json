@@ -1,60 +1,60 @@
 [ {
-  "uid" : "d274f04d84e8b8f8",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1637700536583,
-    "stop" : 1637700536793,
-    "duration" : 210
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98bf31896ff78db5",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1637700536851,
-    "stop" : 1637700538559,
-    "duration" : 1708
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "252050f4b05ac3b7",
-  "name" : "Test Tracing",
-  "time" : {
-    "start" : 1637700492709,
-    "stop" : 1637700533175,
-    "duration" : 40466
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "199f542899e7c320",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1637700534163,
-    "stop" : 1637700534332,
-    "duration" : 169
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4a01b8199d5c6148",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1637700534340,
-    "stop" : 1637700536031,
-    "duration" : 1691
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e42b85922284b8d5",
+  "uid" : "f9479ef7ac42d57e",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1637700533993,
-    "stop" : 1637700534158,
-    "duration" : 165
+    "start" : 1642755059167,
+    "stop" : 1642755059335,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea915db4a7633a0a",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1642755042777,
+    "stop" : 1642755058532,
+    "duration" : 15755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41a2756619f07a29",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1642755059341,
+    "stop" : 1642755059478,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23f1a24a8313e243",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1642755081261,
+    "stop" : 1642755081526,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "443757e15c713391",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1642755059482,
+    "stop" : 1642755061005,
+    "duration" : 1523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b5e3930d6a6b9ff",
+  "name" : "Test Tracing",
+  "time" : {
+    "start" : 1642755061049,
+    "stop" : 1642755080644,
+    "duration" : 19595
   },
   "status" : "passed",
   "severity" : "normal"
