@@ -2,52 +2,18 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "fv-az121-65",
+    "name" : "fv-az36-128",
     "children" : [ {
-      "name" : "1727@fv-az121-65.main(1)",
+      "name" : "1751@fv-az36-128.main(1)",
       "children" : [ {
-        "name" : "shouldCheckTheBox()",
-        "uid" : "a653f3f6b4b28eb1",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
+        "name" : "shouldClickButton()",
+        "uid" : "9bba7d3e776fa81f",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
         "status" : "passed",
         "time" : {
-          "start" : 1642799351303,
-          "stop" : 1642799351436,
-          "duration" : 133
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Network Interception",
-        "uid" : "2eb492740f6974ca",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1642799367481,
-          "stop" : 1642799367643,
-          "duration" : 162
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldSearchWiki()",
-        "uid" : "17b86a0e0350d7fe",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
-        "status" : "passed",
-        "time" : {
-          "start" : 1642799351602,
-          "stop" : 1642799352973,
-          "duration" : 1371
+          "start" : 1642888385848,
+          "stop" : 1642888385994,
+          "duration" : 146
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +24,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test Tracing",
-        "uid" : "87da35c69feaf732",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
+        "uid" : "c208060e913ccd58",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
         "status" : "passed",
         "time" : {
-          "start" : 1642799353018,
-          "stop" : 1642799367071,
-          "duration" : 14053
+          "start" : 1642888387921,
+          "stop" : 1642888403432,
+          "duration" : 15511
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,14 +40,48 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "shouldClickButton()",
-        "uid" : "c0ffaaf645dcc630",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
+        "name" : "shouldCheckTheBox()",
+        "uid" : "f2a208477363ebac",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
         "status" : "passed",
         "time" : {
-          "start" : 1642799351446,
-          "stop" : 1642799351596,
-          "duration" : 150
+          "start" : 1642888385684,
+          "stop" : 1642888385839,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSearchWiki()",
+        "uid" : "d3a3a2c3c1dc79fb",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642888386001,
+          "stop" : 1642888387892,
+          "duration" : 1891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Network Interception",
+        "uid" : "966f07bd170b5ec4",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642888403860,
+          "stop" : 1642888404021,
+          "duration" : 161
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,13 +92,13 @@
         "parameters" : [ ]
       }, {
         "name" : "Test Video",
-        "uid" : "8c78ccfd487fcc76",
-        "parentUid" : "8deb03a996bb360925e5da04c164b69d",
+        "uid" : "6cc7b8b27ff35955",
+        "parentUid" : "c7bc0fe1f5d90039bfee840355c40646",
         "status" : "passed",
         "time" : {
-          "start" : 1642799336767,
-          "stop" : 1642799350695,
-          "duration" : 13928
+          "start" : 1642888368214,
+          "stop" : 1642888385088,
+          "duration" : 16874
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,8 +108,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8deb03a996bb360925e5da04c164b69d"
+      "uid" : "c7bc0fe1f5d90039bfee840355c40646"
     } ],
-    "uid" : "22e37ab40c8d070db0097d1e0c400f30"
+    "uid" : "597f15019367960032719eed96008db6"
   } ]
 }
