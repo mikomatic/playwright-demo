@@ -26,7 +26,10 @@ public class TracingTest {
             BrowserContext context = browser.newContext();
 
             // Start tracing before creating / navigating a page.
-            context.tracing().start(new Tracing.StartOptions().setScreenshots(true).setSnapshots(true));
+            context.tracing().start(new Tracing.StartOptions()
+                    .setSources(true)
+                    .setScreenshots(true)
+                    .setSnapshots(true));
 
             // Open new page
             Page page = context.newPage();

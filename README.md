@@ -22,6 +22,7 @@ Run maven and allure plugin
 
 ```bash
   # "clean test" & "allure:report" goals can be done separately
+  PLAYWRIGHT_JAVA_SRC="./src/test/java"
   mvn clean test allure:report
 ```
 
@@ -30,6 +31,7 @@ Playwright tests should be launched and report generated at `target/site/allure-
 You can also serve the report directly via the command
 ```bash
   # "clean test" & "allure:serve" goals can be done separately
+  PLAYWRIGHT_JAVA_SRC="./src/test/java"
   mvn clean test allure:serve
 ```
 
