@@ -4,6 +4,9 @@ on:
     branches: [main]
   pull_request:
 
+env:
+  PLAYWRIGHT_JAVA_SRC: "./src/test/java"
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
           java-version: '17'
           cache: 'maven'
       - name: Build with Maven
-        run: PLAYWRIGHT_JAVA_SRC="./src/test/java" && mvn clean test allure:report --no-transfer-progress --fail-at-end
+        run: mvn clean test allure:report --no-transfer-progress --fail-at-end
       - name: Deploy 🚀
         if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@releases/v3
