@@ -11,17 +11,20 @@ import java.util.Properties;
  */
 public class AllureEnvironmentWriter {
 
-    public static void allureEnvironmentWriter() throws IOException {
-        Properties properties = new Properties();
-        properties.put("test.prop", "MyValue");
+  public static void allureEnvironmentWriter() throws IOException {
+    Properties properties = new Properties();
+    properties.put("test.prop", "MyValue");
 
-        File allureResultsDir = new File(System.getProperty("user.dir")
-                + "/target/allure-results");
-        if (!allureResultsDir.exists()) {
-            allureResultsDir.mkdirs();
-        }
-        properties.store(new FileWriter(System.getProperty("user.dir")
-                + "/target/allure-results/environment.properties"), "A comment");
+    File allureResultsDir = new File(System.getProperty("user.dir")
+            + "/target/allure-results");
+    if (!allureResultsDir.exists()) {
+      allureResultsDir.mkdirs();
     }
+
+    try (FileWriter fileWriter = new FileWriter(allureResultsDir.getAbsolutePath() + "/environment.properties")) {
+      properties.store(fileWriter, "A comment");
+    }
+
+  }
 
 }
