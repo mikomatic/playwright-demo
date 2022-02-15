@@ -1,70 +1,70 @@
 [ {
-  "uid" : "40b8003c765fdade",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1644097224723,
-    "stop" : 1644097226073,
-    "duration" : 1350
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4aba9565de31bf0",
-  "name" : "allureEnvironmentWriter()",
-  "time" : {
-    "start" : 1644097224353,
-    "stop" : 1644097224432,
-    "duration" : 79
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78ee55f95a65e5cb",
+  "uid" : "a8f51305cfecd7e4",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1644097224442,
-    "stop" : 1644097224581,
-    "duration" : 139
+    "start" : 1644953886433,
+    "stop" : 1644953886582,
+    "duration" : 149
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4362fd71eb6dbaef",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1644097226511,
-    "stop" : 1644097226696,
-    "duration" : 185
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9a65f437572cbc3",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1644097207629,
-    "stop" : 1644097208741,
-    "duration" : 1112
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e2bd9331138920e6",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1644097224587,
-    "stop" : 1644097224720,
-    "duration" : 133
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e6ad65a49d7090da",
+  "uid" : "b479aabaa791788",
   "name" : "Test Tracing",
   "time" : {
-    "start" : 1644097209306,
-    "stop" : 1644097223896,
-    "duration" : 14590
+    "start" : 1644953873169,
+    "stop" : 1644953885894,
+    "duration" : 12725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1148ffaed4f73f40",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1644953871783,
+    "stop" : 1644953872543,
+    "duration" : 760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a10f6d4c5d5e04",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1644953888666,
+    "stop" : 1644953888855,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffc978a2de7b692b",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1644953886586,
+    "stop" : 1644953886713,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d26d310732654ca7",
+  "name" : "allureEnvironmentWriter()",
+  "time" : {
+    "start" : 1644953886358,
+    "stop" : 1644953886429,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2fda9787ae65b72",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1644953886716,
+    "stop" : 1644953888242,
+    "duration" : 1526
   },
   "status" : "passed",
   "severity" : "normal"
