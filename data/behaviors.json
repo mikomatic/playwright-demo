@@ -3,13 +3,13 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Test Video",
-    "uid" : "1148ffaed4f73f40",
+    "uid" : "b134415914a60c0c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644953871783,
-      "stop" : 1644953872543,
-      "duration" : 760
+      "start" : 1645051205772,
+      "stop" : 1645051206715,
+      "duration" : 943
     },
     "flaky" : false,
     "newFailed" : false,
@@ -20,13 +20,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Tracing",
-    "uid" : "b479aabaa791788",
+    "uid" : "b16d45476b59afc8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644953873169,
-      "stop" : 1644953885894,
-      "duration" : 12725
+      "start" : 1645051207299,
+      "stop" : 1645051226267,
+      "duration" : 18968
     },
     "flaky" : false,
     "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Write Allure environment",
       "children" : [ {
         "name" : "allureEnvironmentWriter()",
-        "uid" : "d26d310732654ca7",
+        "uid" : "524b75941a04cf51",
         "parentUid" : "2d95de15c4b4a30705164e433b173f70",
         "status" : "passed",
         "time" : {
-          "start" : 1644953886358,
-          "stop" : 1644953886429,
-          "duration" : 71
+          "start" : 1645051226741,
+          "stop" : 1645051226800,
+          "duration" : 59
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "I can check a box",
       "children" : [ {
         "name" : "shouldCheckTheBox()",
-        "uid" : "a8f51305cfecd7e4",
+        "uid" : "a3f4e8080c4c5af5",
         "parentUid" : "23f26331eb60aa0c185fc7554ea551a8",
         "status" : "passed",
         "time" : {
-          "start" : 1644953886433,
-          "stop" : 1644953886582,
-          "duration" : 149
+          "start" : 1645051226804,
+          "stop" : 1645051226936,
+          "duration" : 132
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,13 +83,13 @@
       "name" : "I can click a button",
       "children" : [ {
         "name" : "shouldClickButton()",
-        "uid" : "ffc978a2de7b692b",
+        "uid" : "b6dd71edbe59c78f",
         "parentUid" : "b024a8d78d860a6cb19abd01735bb5f0",
         "status" : "passed",
         "time" : {
-          "start" : 1644953886586,
-          "stop" : 1644953886713,
-          "duration" : 127
+          "start" : 1645051226939,
+          "stop" : 1645051227058,
+          "duration" : 119
         },
         "flaky" : false,
         "newFailed" : false,
@@ -104,13 +104,13 @@
       "name" : "I can use a webpage",
       "children" : [ {
         "name" : "shouldSearchWiki()",
-        "uid" : "b2fda9787ae65b72",
+        "uid" : "adee87d104832503",
         "parentUid" : "5053918642d51d551fdd0a8180443e2c",
         "status" : "passed",
         "time" : {
-          "start" : 1644953886716,
-          "stop" : 1644953888242,
-          "duration" : 1526
+          "start" : 1645051227065,
+          "stop" : 1645051228680,
+          "duration" : 1615
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,13 +125,13 @@
     "uid" : "ab9cb3c9654eb56bddbb091cd4af1426"
   }, {
     "name" : "Test Network Interception",
-    "uid" : "6a10f6d4c5d5e04",
+    "uid" : "78a38f81d825c6c4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644953888666,
-      "stop" : 1644953888855,
-      "duration" : 189
+      "start" : 1645051229163,
+      "stop" : 1645051229337,
+      "duration" : 174
     },
     "flaky" : false,
     "newFailed" : false,

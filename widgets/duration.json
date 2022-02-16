@@ -1,70 +1,70 @@
 [ {
-  "uid" : "1148ffaed4f73f40",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1644953871783,
-    "stop" : 1644953872543,
-    "duration" : 760
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a8f51305cfecd7e4",
-  "name" : "shouldCheckTheBox()",
-  "time" : {
-    "start" : 1644953886433,
-    "stop" : 1644953886582,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ffc978a2de7b692b",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1644953886586,
-    "stop" : 1644953886713,
-    "duration" : 127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a10f6d4c5d5e04",
-  "name" : "Test Network Interception",
-  "time" : {
-    "start" : 1644953888666,
-    "stop" : 1644953888855,
-    "duration" : 189
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d26d310732654ca7",
-  "name" : "allureEnvironmentWriter()",
-  "time" : {
-    "start" : 1644953886358,
-    "stop" : 1644953886429,
-    "duration" : 71
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2fda9787ae65b72",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1644953886716,
-    "stop" : 1644953888242,
-    "duration" : 1526
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b479aabaa791788",
+  "uid" : "b16d45476b59afc8",
   "name" : "Test Tracing",
   "time" : {
-    "start" : 1644953873169,
-    "stop" : 1644953885894,
-    "duration" : 12725
+    "start" : 1645051207299,
+    "stop" : 1645051226267,
+    "duration" : 18968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b134415914a60c0c",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1645051205772,
+    "stop" : 1645051206715,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adee87d104832503",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1645051227065,
+    "stop" : 1645051228680,
+    "duration" : 1615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "524b75941a04cf51",
+  "name" : "allureEnvironmentWriter()",
+  "time" : {
+    "start" : 1645051226741,
+    "stop" : 1645051226800,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78a38f81d825c6c4",
+  "name" : "Test Network Interception",
+  "time" : {
+    "start" : 1645051229163,
+    "stop" : 1645051229337,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6dd71edbe59c78f",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1645051226939,
+    "stop" : 1645051227058,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3f4e8080c4c5af5",
+  "name" : "shouldCheckTheBox()",
+  "time" : {
+    "start" : 1645051226804,
+    "stop" : 1645051226936,
+    "duration" : 132
   },
   "status" : "passed",
   "severity" : "normal"
