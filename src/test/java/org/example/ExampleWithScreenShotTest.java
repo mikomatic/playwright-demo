@@ -24,7 +24,7 @@ public class ExampleWithScreenShotTest extends TestFixture {
   @Story("I can click a button")
   void shouldClickButton() {
     page.navigate("data:text/html,<script>var result;</script><button onclick='result=\"Clicked\"'>Go</button>");
-    page.click("button");
+    page.locator("button").click();
     assertEquals("Clicked", page.evaluate("result"));
   }
 
@@ -32,7 +32,7 @@ public class ExampleWithScreenShotTest extends TestFixture {
   @Story("I can check a box")
   void shouldCheckTheBox() {
     page.setContent("<input id='checkbox' type='checkbox'></input>");
-    page.check("input");
+    page.locator("input").check();
     assertTrue((Boolean) page.evaluate("() => window['checkbox'].checked"));
   }
 
@@ -41,9 +41,9 @@ public class ExampleWithScreenShotTest extends TestFixture {
   @Story("I can use a webpage")
   void shouldSearchWiki() throws IOException {
     page.navigate("https://www.wikipedia.org/");
-    page.click("input[name=\"search\"]");
-    page.fill("input[name=\"search\"]", "playwright");
-    page.press("input[name=\"search\"]", "Enter");
+    page.locator("input[name=\"search\"]").click();
+    page.locator("input[name=\"search\"]").fill("playwright");
+    page.locator("input[name=\"search\"]").press("Enter");
 
 
     try (ByteArrayInputStream content = new ByteArrayInputStream(page.screenshot())) {

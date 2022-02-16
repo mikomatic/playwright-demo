@@ -24,9 +24,9 @@ public class VideoTest extends TestFixture {
     // Go to https://example.com/
     page.navigate("https://example.com/");
     // Click text=More information...
-    page.click("text=More information...");
+    page.locator("text=More information...").click();
     // Click img[alt="Homepage"]
-    page.click("img[alt=\"Homepage\"]");
+    page.locator("img[alt=\"Homepage\"]").click();
     videoContext.close();
 
     try (ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(Files.readAllBytes(page.video().path()))) {

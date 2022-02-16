@@ -31,23 +31,26 @@ public class TracingTest extends TestFixture {
     // Go to https://github.com/
     page.navigate("https://github.com/");
 
-    // Click [placeholder="Search GitHub"]
-    page.click("[placeholder=\"Search GitHub\"]");
+    // Click [placeholder="Search\ GitHub"]
+    page.locator("[placeholder=\"Search\\ GitHub\"]").click();
 
-    // Fill [placeholder="Search GitHub"]
-    page.fill("[placeholder=\"Search GitHub\"]", "playwright");
+    // Fill [placeholder="Search\ GitHub"]
+    page.locator("[placeholder=\"Search\\ GitHub\"]").fill("playwright");
 
-    // Press Enter
-    page.press("[placeholder=\"Search GitHub\"]", "Enter");
+    // Click text=playwright
+    page.locator("text=playwright").click();
+    // assert page.url().equals("https://github.com/search?q=playwright");
 
     // Click text=microsoft/playwright-java >> em
-    page.click("text=microsoft/playwright-java >> em");
+    page.locator("text=microsoft/playwright-java >> em").click();
+    // assert page.url().equals("https://github.com/microsoft/playwright-java");
 
     // Click text=About Java version of the Playwright testing and automation library playwright.d >> a[role="link"]
-    Page page1 = page.waitForPopup(() -> page.click("text=About Java version of the Playwright testing and automation library playwright.d >> a[role=\"link\"]"));
-
+    Page page1 = page.waitForPopup(() -> {
+      page.locator("text=About Java version of the Playwright testing and automation library playwright.d >> a[role=\"link\"]").click();
+    });
     // Click text=Get started
-    page1.click("text=Get started");
+    page1.locator("text=Get started").click();
 
     // Stop tracing and export it into a zip archive.
     final Path tracePath = Paths.get("target/trace.zip");
