@@ -1,0 +1,81 @@
+{
+  "uid" : "d1f718b1c15313c7",
+  "name" : "Test Network Interception",
+  "fullName" : "org.example.NetworkTest.shouldInterceptNetworkCall",
+  "historyId" : "d02a981d9beca065450e38bfb8714009",
+  "time" : {
+    "start" : 1646688686300,
+    "stop" : 1646688686506,
+    "duration" : 206
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "41c758cbd869b310",
+      "name" : "My attachment 2",
+      "source" : "41c758cbd869b310.png",
+      "type" : "image/png",
+      "size" : 6721
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.NetworkTest]/[method:shouldInterceptNetworkCall()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az126-660"
+  }, {
+    "name" : "thread",
+    "value" : "1706@fv-az126-660.ForkJoinPool-1-worker-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldInterceptNetworkCall"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.NetworkTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1f718b1c15313c7.json",
+  "parameterValues" : [ ]
+}
