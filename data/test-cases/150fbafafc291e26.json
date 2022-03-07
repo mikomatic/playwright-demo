@@ -1,0 +1,81 @@
+{
+  "uid" : "150fbafafc291e26",
+  "name" : "Test Tracing",
+  "fullName" : "org.example.TracingTest.traceExample",
+  "historyId" : "32f982bfd13357db9a49848814328fe1",
+  "time" : {
+    "start" : 1646688615579,
+    "stop" : 1646688632093,
+    "duration" : 16514
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ced6cf56b534f03e",
+      "name" : "My Trace",
+      "source" : "ced6cf56b534f03e.zip",
+      "type" : "application/zip",
+      "size" : 6477303
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.TracingTest]/[method:traceExample()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-0"
+  }, {
+    "name" : "thread",
+    "value" : "1704@fv-az135-0.ForkJoinPool-1-worker-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "traceExample"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.TracingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "150fbafafc291e26.json",
+  "parameterValues" : [ ]
+}
