@@ -1,0 +1,70 @@
+{
+  "uid" : "a08119dab00de213",
+  "name" : "shouldCheckTheBox()",
+  "fullName" : "org.example.ExampleWithScreenShotTest.shouldCheckTheBox",
+  "historyId" : "96241cc5538eaa393429f983caabd8d4",
+  "time" : {
+    "start" : 1649100136534,
+    "stop" : 1649100136664,
+    "duration" : 130
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.ExampleWithScreenShotTest]/[method:shouldCheckTheBox()]"
+  }, {
+    "name" : "epic",
+    "value" : "First Test"
+  }, {
+    "name" : "story",
+    "value" : "I can check a box"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-734"
+  }, {
+    "name" : "thread",
+    "value" : "1789@fv-az121-734.ForkJoinPool-1-worker-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldCheckTheBox"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.ExampleWithScreenShotTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a08119dab00de213.json",
+  "parameterValues" : [ ]
+}
