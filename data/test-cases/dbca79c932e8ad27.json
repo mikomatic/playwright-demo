@@ -1,0 +1,81 @@
+{
+  "uid" : "dbca79c932e8ad27",
+  "name" : "Test Video",
+  "fullName" : "org.example.VideoTest.videoExample",
+  "historyId" : "a8f08a1af9e76ab4e3e22a6cf1a3fc3a",
+  "time" : {
+    "start" : 1649100305469,
+    "stop" : 1649100306525,
+    "duration" : 1056
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d6c4fd02de548274",
+      "name" : "My attachment 2",
+      "source" : "d6c4fd02de548274.webm",
+      "type" : "video/webm",
+      "size" : 58790
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.VideoTest]/[method:videoExample()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az33-70"
+  }, {
+    "name" : "thread",
+    "value" : "1785@fv-az33-70.ForkJoinPool-1-worker-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "videoExample"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.VideoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbca79c932e8ad27.json",
+  "parameterValues" : [ ]
+}

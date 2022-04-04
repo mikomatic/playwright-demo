@@ -2,69 +2,18 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "fv-az121-734",
+    "name" : "fv-az33-70",
     "children" : [ {
-      "name" : "1789@fv-az121-734.ForkJoinPool-1-worker-1(16)",
+      "name" : "1785@fv-az33-70.ForkJoinPool-1-worker-1(16)",
       "children" : [ {
-        "name" : "shouldSearchWiki()",
-        "uid" : "41955ece63010a30",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649100136815,
-          "stop" : 1649100138110,
-          "duration" : 1295
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldCheckTheBox()",
-        "uid" : "a08119dab00de213",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649100136534,
-          "stop" : 1649100136664,
-          "duration" : 130
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Tracing",
-        "uid" : "765b3cfaa6a5b931",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649100120404,
-          "stop" : 1649100135843,
-          "duration" : 15439
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "allureEnvironmentWriter()",
-        "uid" : "22a5a94d53e21768",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
+        "uid" : "b467be03cabc76d3",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
         "status" : "passed",
         "time" : {
-          "start" : 1649100136459,
-          "stop" : 1649100136529,
-          "duration" : 70
+          "start" : 1649100302852,
+          "stop" : 1649100302961,
+          "duration" : 109
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,31 +23,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "shouldClickButton()",
-        "uid" : "1a2602f12445e682",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
+        "name" : "shouldSearchWiki()",
+        "uid" : "93458169e5c8de69",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
         "status" : "passed",
         "time" : {
-          "start" : 1649100136669,
-          "stop" : 1649100136812,
-          "duration" : 143
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Network Interception",
-        "uid" : "ca65fbcd78962672",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
-        "status" : "passed",
-        "time" : {
-          "start" : 1649100139597,
-          "stop" : 1649100139762,
-          "duration" : 165
+          "start" : 1649100303304,
+          "stop" : 1649100305001,
+          "duration" : 1697
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,13 +41,81 @@
         "parameters" : [ ]
       }, {
         "name" : "Test Video",
-        "uid" : "f6c7a35f3773ff8",
-        "parentUid" : "0e713db9da91c5ae068d81b15bdeca29",
+        "uid" : "dbca79c932e8ad27",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
         "status" : "passed",
         "time" : {
-          "start" : 1649100138525,
-          "stop" : 1649100139174,
-          "duration" : 649
+          "start" : 1649100305469,
+          "stop" : 1649100306525,
+          "duration" : 1056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldClickButton()",
+        "uid" : "e024e5733cfc1c6d",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649100303136,
+          "stop" : 1649100303301,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Tracing",
+        "uid" : "c67ff12ccc7c0eb1",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649100283689,
+          "stop" : 1649100302085,
+          "duration" : 18396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Network Interception",
+        "uid" : "65a072de8f4cc9f1",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649100306986,
+          "stop" : 1649100307177,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckTheBox()",
+        "uid" : "9a5bc28864f40cbf",
+        "parentUid" : "0669d57df5a7b67752752e41c16fb80b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649100302977,
+          "stop" : 1649100303132,
+          "duration" : 155
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,8 +125,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0e713db9da91c5ae068d81b15bdeca29"
+      "uid" : "0669d57df5a7b67752752e41c16fb80b"
     } ],
-    "uid" : "2f645aec58baa38b2066de0c4868a319"
+    "uid" : "a30b12c06db1019fb60c1bffde51e753"
   } ]
 }
