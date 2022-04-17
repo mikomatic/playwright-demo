@@ -12,6 +12,17 @@
       "total" : 4
     }
   }, {
+    "uid" : "738e297df66cb7fab641a2b809a8403d",
+    "name" : "org.example.NetworkTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "241207217750e108950d01df707d6611",
     "name" : "org.example.TracingTest",
     "statistic" : {
@@ -25,17 +36,6 @@
   }, {
     "uid" : "cb1f1299ce4b21202eaf628615c156fd",
     "name" : "org.example.VideoTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "738e297df66cb7fab641a2b809a8403d",
-    "name" : "org.example.NetworkTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

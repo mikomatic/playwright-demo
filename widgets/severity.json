@@ -1,70 +1,70 @@
 [ {
-  "uid" : "c67ff12ccc7c0eb1",
-  "name" : "Test Tracing",
-  "time" : {
-    "start" : 1649100283689,
-    "stop" : 1649100302085,
-    "duration" : 18396
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "65a072de8f4cc9f1",
+  "uid" : "7c41a9b47bb0f3d7",
   "name" : "Test Network Interception",
   "time" : {
-    "start" : 1649100306986,
-    "stop" : 1649100307177,
-    "duration" : 191
+    "start" : 1650224971811,
+    "stop" : 1650224972133,
+    "duration" : 322
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "93458169e5c8de69",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1649100303304,
-    "stop" : 1649100305001,
-    "duration" : 1697
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a5bc28864f40cbf",
-  "name" : "shouldCheckTheBox()",
-  "time" : {
-    "start" : 1649100302977,
-    "stop" : 1649100303132,
-    "duration" : 155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbca79c932e8ad27",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1649100305469,
-    "stop" : 1649100306525,
-    "duration" : 1056
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e024e5733cfc1c6d",
-  "name" : "shouldClickButton()",
-  "time" : {
-    "start" : 1649100303136,
-    "stop" : 1649100303301,
-    "duration" : 165
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b467be03cabc76d3",
+  "uid" : "1a1997295c819e22",
   "name" : "allureEnvironmentWriter()",
   "time" : {
-    "start" : 1649100302852,
-    "stop" : 1649100302961,
-    "duration" : 109
+    "start" : 1650224972775,
+    "stop" : 1650224972842,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "134e82e3b9055abc",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1650224973148,
+    "stop" : 1650224974837,
+    "duration" : 1689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46e2227c9a6eafa3",
+  "name" : "Test Tracing",
+  "time" : {
+    "start" : 1650224975572,
+    "stop" : 1650224990918,
+    "duration" : 15346
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4afd8c44779836ec",
+  "name" : "shouldCheckTheBox()",
+  "time" : {
+    "start" : 1650224972849,
+    "stop" : 1650224972984,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ade71283ad6b0",
+  "name" : "shouldClickButton()",
+  "time" : {
+    "start" : 1650224972987,
+    "stop" : 1650224973145,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4d9b1fefe26892d",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1650224991511,
+    "stop" : 1650224992842,
+    "duration" : 1331
   },
   "status" : "passed",
   "severity" : "normal"
