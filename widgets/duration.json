@@ -1,70 +1,70 @@
 [ {
-  "uid" : "c4d9b1fefe26892d",
-  "name" : "Test Video",
-  "time" : {
-    "start" : 1650224991511,
-    "stop" : 1650224992842,
-    "duration" : 1331
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "134e82e3b9055abc",
-  "name" : "shouldSearchWiki()",
-  "time" : {
-    "start" : 1650224973148,
-    "stop" : 1650224974837,
-    "duration" : 1689
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a1997295c819e22",
-  "name" : "allureEnvironmentWriter()",
-  "time" : {
-    "start" : 1650224972775,
-    "stop" : 1650224972842,
-    "duration" : 67
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46e2227c9a6eafa3",
+  "uid" : "531ae95159652ae0",
   "name" : "Test Tracing",
   "time" : {
-    "start" : 1650224975572,
-    "stop" : 1650224990918,
-    "duration" : 15346
+    "start" : 1652730122984,
+    "stop" : 1652730139401,
+    "duration" : 16417
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e1ade71283ad6b0",
+  "uid" : "ec645040b99378e7",
   "name" : "shouldClickButton()",
   "time" : {
-    "start" : 1650224972987,
-    "stop" : 1650224973145,
-    "duration" : 158
+    "start" : 1652730141196,
+    "stop" : 1652730141321,
+    "duration" : 125
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7c41a9b47bb0f3d7",
+  "uid" : "a9a68056112ce759",
+  "name" : "Test Video",
+  "time" : {
+    "start" : 1652730139983,
+    "stop" : 1652730140548,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35885a297000fca3",
   "name" : "Test Network Interception",
   "time" : {
-    "start" : 1650224971811,
-    "stop" : 1650224972133,
-    "duration" : 322
+    "start" : 1652730143356,
+    "stop" : 1652730143565,
+    "duration" : 209
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4afd8c44779836ec",
+  "uid" : "b57e8075d359e576",
+  "name" : "shouldSearchWiki()",
+  "time" : {
+    "start" : 1652730141324,
+    "stop" : 1652730142947,
+    "duration" : 1623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "361ffd0e8f09b630",
+  "name" : "allureEnvironmentWriter()",
+  "time" : {
+    "start" : 1652730140941,
+    "stop" : 1652730141022,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87ebb50ff8b9a3bd",
   "name" : "shouldCheckTheBox()",
   "time" : {
-    "start" : 1650224972849,
-    "stop" : 1650224972984,
-    "duration" : 135
+    "start" : 1652730141025,
+    "stop" : 1652730141193,
+    "duration" : 168
   },
   "status" : "passed",
   "severity" : "normal"

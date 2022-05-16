@@ -2,35 +2,18 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "fv-az42-838",
+    "name" : "fv-az126-795",
     "children" : [ {
-      "name" : "1829@fv-az42-838.ForkJoinPool-1-worker-1(16)",
+      "name" : "1746@fv-az126-795.ForkJoinPool-1-worker-1(16)",
       "children" : [ {
-        "name" : "Test Network Interception",
-        "uid" : "7c41a9b47bb0f3d7",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
+        "name" : "shouldSearchWiki()",
+        "uid" : "b57e8075d359e576",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
         "status" : "passed",
         "time" : {
-          "start" : 1650224971811,
-          "stop" : 1650224972133,
-          "duration" : 322
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Tracing",
-        "uid" : "46e2227c9a6eafa3",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650224975572,
-          "stop" : 1650224990918,
-          "duration" : 15346
+          "start" : 1652730141324,
+          "stop" : 1652730142947,
+          "duration" : 1623
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +24,13 @@
         "parameters" : [ ]
       }, {
         "name" : "allureEnvironmentWriter()",
-        "uid" : "1a1997295c819e22",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
+        "uid" : "361ffd0e8f09b630",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
         "status" : "passed",
         "time" : {
-          "start" : 1650224972775,
-          "stop" : 1650224972842,
-          "duration" : 67
+          "start" : 1652730140941,
+          "stop" : 1652730141022,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,48 +40,14 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
-        "name" : "shouldSearchWiki()",
-        "uid" : "134e82e3b9055abc",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
+        "name" : "Test Tracing",
+        "uid" : "531ae95159652ae0",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
         "status" : "passed",
         "time" : {
-          "start" : 1650224973148,
-          "stop" : 1650224974837,
-          "duration" : 1689
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test Video",
-        "uid" : "c4d9b1fefe26892d",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650224991511,
-          "stop" : 1650224992842,
-          "duration" : 1331
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "shouldCheckTheBox()",
-        "uid" : "4afd8c44779836ec",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1650224972849,
-          "stop" : 1650224972984,
-          "duration" : 135
+          "start" : 1652730122984,
+          "stop" : 1652730139401,
+          "duration" : 16417
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,13 +58,64 @@
         "parameters" : [ ]
       }, {
         "name" : "shouldClickButton()",
-        "uid" : "e1ade71283ad6b0",
-        "parentUid" : "617a1220006d1c98321f9c5684f2d8d3",
+        "uid" : "ec645040b99378e7",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
         "status" : "passed",
         "time" : {
-          "start" : 1650224972987,
-          "stop" : 1650224973145,
-          "duration" : 158
+          "start" : 1652730141196,
+          "stop" : 1652730141321,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Video",
+        "uid" : "a9a68056112ce759",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652730139983,
+          "stop" : 1652730140548,
+          "duration" : 565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldCheckTheBox()",
+        "uid" : "87ebb50ff8b9a3bd",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652730141025,
+          "stop" : 1652730141193,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Network Interception",
+        "uid" : "35885a297000fca3",
+        "parentUid" : "a2f0dbb25d416ac719ca897a4a128729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652730143356,
+          "stop" : 1652730143565,
+          "duration" : 209
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,8 +125,8 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "617a1220006d1c98321f9c5684f2d8d3"
+      "uid" : "a2f0dbb25d416ac719ca897a4a128729"
     } ],
-    "uid" : "81c4a530e56d81062c25f65e307baa58"
+    "uid" : "bd8eeea9f14eca71fd7a1499f34a652a"
   } ]
 }
