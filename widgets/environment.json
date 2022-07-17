@@ -1,4 +1,1 @@
-[ {
-  "values" : [ "MyValue" ],
-  "name" : "test.prop"
-} ]
+[{"values":["MyValue"],"name":"test.prop"}]
