@@ -18,7 +18,7 @@
     <aspectj.version>1.9.9.1</aspectj.version>
     <playwright.version>1.25.0</playwright.version>
     <junit-jupiter.version>5.9.0</junit-jupiter.version>
-    <allure.version>2.18.1</allure.version>
+    <allure.version>2.19.0</allure.version>
     <allure-maven.version>2.11.2</allure-maven.version>
   </properties>
 
