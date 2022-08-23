@@ -1,10 +1,8 @@
 package org.example;
 
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.BrowserType;
-import com.microsoft.playwright.Page;
-import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.*;
+
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class Example {
     public static void main(String[] args) {
@@ -16,49 +14,31 @@ public class Example {
             // Open new page
             Page page = context.newPage();
 
-            page.pause();
-            // Go to https://www.google.com/
-            page.navigate("https://www.google.com/");
+            // Go to https://github.com/
+            page.navigate("https://github.com/");
 
-            // Click [aria-label="Rech."]
-            page.click("[aria-label=\"Rech.\"]");
+            // Click [placeholder="Search GitHub"]
+            page.locator("[placeholder=\"Search GitHub\"]").click();
 
-            // Fill [aria-label="Rech."]
-            page.fill("[aria-label=\"Rech.\"]", "chocolat");
+            // Fill [placeholder="Search GitHub"]
+            page.locator("[placeholder=\"Search GitHub\"]").fill("playwright");
 
-            // Click text=Chocolat
-            // page.waitForNavigation(new Page.WaitForNavigationOptions().setUrl("https://www.google.com/search?q=chocolate&source=hp&ei=7F2OYfSSKsarqtsP4KCkgAg&iflsig=ALs-wAMAAAAAYY5r_AE6QCMR8_KQRW-Mz6oAmD8w4FMD&gs_ssp=eJzj4tDP1TcwMijLMWB0YPDiTM7IT87PSSxJBQBIuAbI&oq=chocolat&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCC4QgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyCwguEIAEEMcBEKMCMgUIABCABDIFCC4QgAQ6CwguEIAEEMcBENEDOgsILhCABBDHARCvAVC8DljCHmDFTGgBcAB4AIABiwKIAYAJkgEFMC43LjGYAQCgAQGwAQA&sclient=gws-wiz"), () ->
-            page.waitForNavigation(() -> page.click("text=Chocolat"));
-            // assert page.url().equals("https://www.google.com/search?q=chocolate&source=hp&ei=7F2OYfSSKsarqtsP4KCkgAg&iflsig=ALs-wAMAAAAAYY5r_AE6QCMR8_KQRW-Mz6oAmD8w4FMD&gs_ssp=eJzj4tDP1TcwMijLMWB0YPDiTM7IT87PSSxJBQBIuAbI&oq=chocolat&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCC4QgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyCwguEIAEEMcBEKMCMgUIABCABDIFCC4QgAQ6CwguEIAEEMcBENEDOgsILhCABBDHARCvAVC8DljCHmDFTGgBcAB4AIABiwKIAYAJkgEFMC43LjGYAQCgAQGwAQA&sclient=gws-wiz");
+            // Click text=playwright
+            page.locator("text=playwright").click();
+            assertThat(page).hasURL("https://github.com/search?q=playwright");
 
-            // Click text=Chocolate - Wikipedia, la enciclopedia libre
-            page.click("text=Chocolate - Wikipedia, la enciclopedia libre");
-            // assert page.url().equals("https://es.wikipedia.org/wiki/Chocolate");
+            // Click text=microsoft/playwright Playwright is a framework for Web Testing and Automation. I >> em >> nth=0
+            page.locator("text=microsoft/playwright Playwright is a framework for Web Testing and Automation. I >> em").first().click();
+            assertThat(page).hasURL("https://github.com/microsoft/playwright");
 
-            // Go to https://www.google.com/search?q=chocolate&source=hp&ei=7F2OYfSSKsarqtsP4KCkgAg&iflsig=ALs-wAMAAAAAYY5r_AE6QCMR8_KQRW-Mz6oAmD8w4FMD&gs_ssp=eJzj4tDP1TcwMijLMWB0YPDiTM7IT87PSSxJBQBIuAbI&oq=chocolat&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCC4QgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyCwguEIAEEMcBEKMCMgUIABCABDIFCC4QgAQ6CwguEIAEEMcBENEDOgsILhCABBDHARCvAVC8DljCHmDFTGgBcAB4AIABiwKIAYAJkgEFMC43LjGYAQCgAQGwAQA&sclient=gws-wiz
-            page.navigate("https://www.google.com/search?q=chocolate&source=hp&ei=7F2OYfSSKsarqtsP4KCkgAg&iflsig=ALs-wAMAAAAAYY5r_AE6QCMR8_KQRW-Mz6oAmD8w4FMD&gs_ssp=eJzj4tDP1TcwMijLMWB0YPDiTM7IT87PSSxJBQBIuAbI&oq=chocolat&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCC4QgAQyBQguEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyCwguEIAEEMcBEKMCMgUIABCABDIFCC4QgAQ6CwguEIAEEMcBENEDOgsILhCABBDHARCvAVC8DljCHmDFTGgBcAB4AIABiwKIAYAJkgEFMC43LjGYAQCgAQGwAQA&sclient=gws-wiz");
+            // Click text=v1.25.1
+            page.locator("text=v1.25.1").click();
+            assertThat(page).hasURL("https://github.com/microsoft/playwright/releases/tag/v1.25.1");
 
-            // Double click [aria-label="Rech."]
-            page.dblclick("[aria-label=\"Rech.\"]");
-
-            // Fill [aria-label="Rech."]
-            page.fill("[aria-label=\"Rech.\"]", "chocolatelin");
-
-            // Double click [aria-label="Rech."]
-            page.dblclick("[aria-label=\"Rech.\"]");
-
-            // Fill [aria-label="Rech."]
-            page.fill("[aria-label=\"Rech.\"]", "lindor");
-
-            // Press Enter
-            // page.waitForNavigation(new Page.WaitForNavigationOptions().setUrl("https://www.google.com/search?q=lindor&ei=A16OYauNKIusqtsPoqmFmAg&oq=lindor&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBggAEAoQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgcIABCwAxBDOgoILhDIAxCwAxBDOgQILhBDOgQIABAKOgcIABCABBAKOgQILhAKOgUILhCABDoLCC4QgAQQxwEQowI6CggAEOoCELQCEEM6CgguEOoCELQCEEM6CwguEIAEEMcBENEDOgsILhCABBDHARCvAToKCC4QxwEQ0QMQQzoICAAQgAQQyQM6CgguEMcBEK8BEApKBQg4EgExSgQIQRgAUMAXWKqOAWCWngFoCXACeAGAAaACiAG6F5IBBjAuMTQuNJgBAKABAbABCsgBD8ABAQ&sclient=gws-wiz&ved=0ahUKEwjrmq3Q6ZL0AhULlmoFHaJUAYMQ4dUDCA4&uact=5"), () ->
-            page.waitForNavigation(() -> page.press("[aria-label=\"Rech.\"]", "Enter"));
-            // assert page.url().equals("https://www.google.com/search?q=lindor&ei=A16OYauNKIusqtsPoqmFmAg&oq=lindor&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBggAEAoQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABBHELADOgcIABCwAxBDOgoILhDIAxCwAxBDOgQILhBDOgQIABAKOgcIABCABBAKOgQILhAKOgUILhCABDoLCC4QgAQQxwEQowI6CggAEOoCELQCEEM6CgguEOoCELQCEEM6CwguEIAEEMcBENEDOgsILhCABBDHARCvAToKCC4QxwEQ0QMQQzoICAAQgAQQyQM6CgguEMcBEK8BEApKBQg4EgExSgQIQRgAUMAXWKqOAWCWngFoCXACeAGAAaACiAG6F5IBBjAuMTQuNJgBAKABAbABCsgBD8ABAQ&sclient=gws-wiz&ved=0ahUKEwjrmq3Q6ZL0AhULlmoFHaJUAYMQ4dUDCA4&uact=5");
-
-            // Click text=Images
-            // page.waitForNavigation(new Page.WaitForNavigationOptions().setUrl("https://www.google.com/search?q=lindor&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj8yczk6ZL0AhW9mGoFHfaLC6QQ_AUoAXoECAEQAw&biw=1280&bih=720&dpr=1"), () ->
-            page.waitForNavigation(() -> page.click("text=Images"));
-            // assert page.url().equals("https://www.google.com/search?q=lindor&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj8yczk6ZL0AhW9mGoFHfaLC6QQ_AUoAXoECAEQAw&biw=1280&bih=720&dpr=1");
+            // Click text=Source code (zip) >> span
+            Download download = page.waitForDownload(() -> {
+                page.locator("text=Source code (zip) >> span").click();
+            });
         }
     }
 }
