@@ -21,7 +21,7 @@ public class TracingTest extends TestFixture {
 
     // Start tracing before creating / navigating a page.
     context.tracing().start(new Tracing.StartOptions()
-            .setSources(true)
+            .setSources(false)
             .setScreenshots(true)
             .setSnapshots(true));
 
@@ -46,9 +46,8 @@ public class TracingTest extends TestFixture {
     // assert page.url().equals("https://github.com/microsoft/playwright-java");
 
     // Click text=About Java version of the Playwright testing and automation library playwright.d >> a[role="link"]
-    Page page1 = page.waitForPopup(() -> {
-      page.locator("text=About Java version of the Playwright testing and automation library playwright.d >> a[role=\"link\"]").click();
-    });
+    Page page1 = page.waitForPopup(() -> page.locator("text=About Java version of the Playwright testing and automation library playwright.d >> a[role=\"link\"]").click());
+
     // Click text=Get started
     page1.locator("text=Get started").click();
 
