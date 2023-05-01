@@ -18,7 +18,7 @@
         <aspectj.version>1.9.19</aspectj.version>
         <junit-jupiter.version>5.9.2</junit-jupiter.version>
         <playwright.version>1.31.0</playwright.version>
-        <allure.version>2.21.0</allure.version>
+        <allure.version>2.22.0</allure.version>
         <allure-maven.version>2.12.0</allure-maven.version>
         <maven-enforcer-plugin.version>3.2.1</maven-enforcer-plugin.version>
         <maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
