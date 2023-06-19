@@ -20,7 +20,7 @@
         <playwright.version>1.31.0</playwright.version>
         <allure.version>2.22.2</allure.version>
         <allure-maven.version>2.12.0</allure-maven.version>
-        <maven-enforcer-plugin.version>3.2.1</maven-enforcer-plugin.version>
+        <maven-enforcer-plugin.version>3.3.0</maven-enforcer-plugin.version>
         <maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
     </properties>
 
