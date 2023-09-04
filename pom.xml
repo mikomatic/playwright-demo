@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <aspectj.version>1.9.19</aspectj.version>
+        <aspectj.version>1.9.20.1</aspectj.version>
         <junit-jupiter.version>5.9.2</junit-jupiter.version>
         <playwright.version>1.35.0</playwright.version>
         <allure.version>2.22.2</allure.version>
